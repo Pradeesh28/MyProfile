@@ -79,7 +79,6 @@ audio,canvas,video {
 	*display:inline;
 	*zoom: 1;
 }
-* Remove excess height in iOS 5 devices. */
 audio:not([controls]) {
 	display:none;
 	height:0;
@@ -238,7 +237,7 @@ legend {
 }
 button,input,select,textarea {
 	font-size:100%;
-	/margin:0;
+	margin:0;
 	vertical-align:baseline;
 	*vertical-align:middle;
 }
@@ -455,7 +454,7 @@ table {
 .hero {
 	background: url('../img/header-hero.jpg') right bottom no-repeat;
 	background-size: contain;
-	padding:110px 0 100px 0;
+	padding:110px 0 100px 10;
 	height:auto;
 	background-color: #FBFBFB;
 }
